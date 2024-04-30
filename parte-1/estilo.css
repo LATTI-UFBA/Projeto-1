@@ -1,0 +1,124 @@
+/* Configurações gerais */
+
+/* Importando a fonte do texto */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Definindo configurações gerais iniciais para todos os elementos HTML  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+
+
+/* Estilizações de mídias */
+
+/* Definindo o tamanho da foto de perfil */
+img.foto-perfil {
+    width:120px;
+    height: 120px;
+    border-radius: 120px;
+}
+
+
+
+/* Estilizações de texto */
+
+h1 {
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #0065FF;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #0065FF;
+
+    margin-top: 120px;
+}
+
+h3, caption {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h4, a, td {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+    color: #888888;
+}
+
+p {
+    display: inline;
+    text-align: justify;
+}
+
+
+
+/* Estilizações das seções da página */
+
+/* Estilizando o cabeçalho */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+
+    padding: 16px;
+}
+    /* Estilizando a lista de links do cabeçalho */
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        gap: 36px;
+        list-style: none;
+}
+   
+/* Estilizando a seção central da página */
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    gap: 120px;
+    padding: 5% 10%;
+}
+
+/* Estilizando as seções genéricas "section" da página */
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Estilizando as seções genéricas "div" */
+div {
+    display: flex;
+    flex-direction: column;
+}
+    /* Adicionando definições especiais para as "div" dentro da section de id "inicio" */
+    #inicio div {
+        align-items: flex-start;
+        gap: 16px;
+}
+
+/* Adicionando definições especiais para todos os elementos html com a classe "div-row" */
+.div-row {
+    flex-direction: row;
+}
