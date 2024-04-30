@@ -1,0 +1,121 @@
+/* Configurações gerais */
+
+/* Importando a fonte do texto */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Definindo configurações gerais iniciais para todos os elementos HTML  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+
+
+/* Estilizações de texto */
+
+h1 {
+    font-size: 56px;
+    line-height: 56px;
+    color: #0065FF;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    color: #0065FF;
+
+    margin-top: 120px;
+}
+
+h3, caption {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+h4, a, td {
+    font-size: 24px;
+}
+
+h5 {
+    color: #888888;
+}
+
+p {
+    max-width: 70%;
+    text-align: justify;
+}
+
+
+
+/* Estilizações das seções da página */
+
+/* Estilizando a seção principal da página */
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    padding: 5% 10%;
+}
+
+/* Estilizando as seções genéricas "section" da página */
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Estilizando as seções genéricas "div" */
+div {
+    display: flex;
+    flex-direction: column;
+}
+    /* Adicionando definições especiais para as "div" dentro da section de id "inicio" */
+    #inicio div {
+        align-items: flex-start;
+        gap: 16px;
+}
+
+/* Adicionando definições especiais para todos os elementos html com a classe "div-row" */
+.div-row {
+    flex-direction: row;
+}
+
+
+
+/* Estilização dos objetos da página */
+
+/* Criando uma classe com todas as estilizações necessárias para a construção de uma caixa */
+.caixa {
+    display: inline-flex;
+    flex-direction: column;
+
+    background-color: #0066ff10;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 16px;
+    border: 3px solid #0065FF;
+}
+
+/* Estilizando o elemento "table" */
+table {
+    gap: 16px;
+}
+    /* Definindo estilizações especiais para a coluna "habilidade" da tabela */
+    table .habilidade {
+        width: 400px;
+}
+
+/* Estilizando as linhas da coluna */
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 16px;
+}
