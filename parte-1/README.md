@@ -9,21 +9,21 @@ Nessa primeira parte do projeto, iremos construir o Header (cabeçalho) da nossa
 #### Elementos
 
 Não-visíveis
-* <!DOCTYPE html>
-* <html>
-* <head>
-   * <meta>
-   * <title>
-   * <link>
+* !DOCTYPE html
+* html
+* head
+   * meta
+   * title
+   * link
 
 Visíveis:
-* <body>
-   * <header>
-   * <nav>
-   * <ul>
-        * <li>
-   * <a>
-   * <h1 - h6>
+* body
+   * header
+   * nav
+   * ul
+        * li
+   * a
+   * h1 - h6
 
 #### Atributos:
 
